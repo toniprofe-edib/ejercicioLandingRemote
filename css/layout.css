@@ -2,7 +2,10 @@
 /* **************************************************************** */
 
 /* VARIABLES */
-
+:root{
+    /* Ancho de Escritorio 2022 */
+    --anchoPantalla: 1366px;
+}
 
 
 
@@ -10,7 +13,32 @@
 
 /* NAV */
 
+/* Fondo */
+.contenedor{
+    background-color: var(--colorFondo);
+}
+
+/* calculo de la mitad del tamaño de pantalla */
+main, footer{
+    width: calc(var(--anchoPantalla) / 2);
+}
+/* ******* */
+
+/* Contenido */
+main{
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+/* Copyright y dirección */
+footer{
+
+}
+
 /* SECTION */
+.banner{}
+.texto{}
+.contacto{}
 
 /* ASIDE */
 

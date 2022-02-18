@@ -2,7 +2,14 @@
 /* **************************************************************** */
 
 /* VARIABLES */
-
+:root{
+    --colorFondo: #ECEDEE;
+    --colorBotonMore: #F96D6F;
+    --colorBotonSteps: #39466C;
+    --colorTitulos: #031146;
+    --colorTextoParrafo: #636363;
+    --colorLinks: #549CDC;
+}
 
 
 

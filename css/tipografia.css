@@ -8,18 +8,7 @@
 
 
 /* FUENTES NO STANDARD */
-@font-face {
-    font-family: 'sanspro_regular';
-    src: url(../fonts/sourcesanspro-regular-webfont.woff2) format('woff2');
-}
-@font-face {
-    font-family: 'sanspro_negrita';
-    src: url(../fonts/sourcesanspro-black-webfont.woff2) format('woff2');
-}
-@font-face {
-    font-family: 'sanspro_italica';
-    src: url(../fonts/sourcesanspro-lightit-webfont.woff2) format('woff2');
-}
+
 /* **************************************************************** */
 
 
@@ -29,3 +18,14 @@
 
 
 /* TIPOS DE TIPOGRAFÍA (H's, párrafos,..) */
+html, a{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: var(--colorTextoParrafo);
+}
+a{
+    color: var(--colorTextoLinks);
+}
+.banner__boton, .texto__boton{
+    color: #fff;
+}
