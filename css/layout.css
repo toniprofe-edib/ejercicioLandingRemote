@@ -15,7 +15,12 @@
 
 /* Fondo */
 .contenedor{
-    background-color: var(--colorFondo);
+    height: 100vh;
+    padding-top: 5%;
+    /* Centrar Main y Footer */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* calculo de la mitad del tamaño de pantalla */
@@ -26,13 +31,22 @@ main, footer{
 
 /* Contenido */
 main{
-    background-color: #fff;
     border-radius: 20px;
+    height: 90%;
 }
+
+/* Zona Banner */
+.banner, .texto, .contacto{
+    padding: 5%;
+}
+
 
 /* Copyright y dirección */
 footer{
-
+    height: 5%;
+    /* Espacio de los laterales */
+    padding: 2% 10%;
+    text-align: center;
 }
 
 /* SECTION */

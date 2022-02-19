@@ -3,7 +3,10 @@
 
 /* Proteger el aunmento del tamaño de caja por los padding, en todas las cajas del proyecto */
 *{
+    /* paddings no aumenten en width */
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 /* Eliminar el subrayado de los links <a> y el color */

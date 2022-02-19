@@ -9,9 +9,23 @@
     --colorTitulos: #031146;
     --colorTextoParrafo: #636363;
     --colorLinks: #549CDC;
+    --colorDegrBannerIzq: #f9f4e5;
+    --colorDegrBannerDer: #eacef6;
+    
 }
 
 
-
-
 /* COLORES en puntos concretos */
+.contenedor{
+    background-color: var(--colorFondo);
+}
+
+main{
+    background-color: #fff;
+}
+
+.banner{
+    background-image: linear-gradient(90deg, 
+    var(--colorDegrBannerIzq) 46%, 
+    var(--colorDegrBannerDer) 100%);
+}

@@ -29,3 +29,40 @@ a{
 .banner__boton, .texto__boton{
     color: #fff;
 }
+
+/* Banner */
+.banner__titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--colorTitulos);
+}
+.banner__subtitulo{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: var(--colorTitulos);
+    margin-bottom: 2rem;
+
+}
+.banner__boton{
+    background-color: var(--colorBotonMore);
+    border-radius: 30px;
+    padding: 0.5rem 2rem;
+}
+
+/* Contenido */
+.texto{
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.texto p{
+    margin-bottom: 2rem;
+}
+.texto__cuerpolink--link{
+    color: var(--colorLinks);
+    text-decoration: underline;
+}
+.texto__boton{
+    background-color: var(--colorBotonSteps);
+    border-radius: 10px;
+    padding: 0.8rem 2rem;
+}
